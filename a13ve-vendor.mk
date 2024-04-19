@@ -1449,6 +1449,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13ve/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100
 
 PRODUCT_PACKAGES += \
+    imsservice \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
     com.samsung.android.biometrics.face.signed \
     com.samsung.android.biometrics.fingerprint.signed \
     com.samsung.android.camera.unihal.signed \
