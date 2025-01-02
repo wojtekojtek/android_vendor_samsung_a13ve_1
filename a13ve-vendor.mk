@@ -5,7 +5,9 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/a13ve
 
-ODM_MANIFEST_FILES += vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_disabled.xml
+ODM_MANIFEST_FILES += \
+    vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_disabled.xml \
+    vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_hce.xml
 
 # vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_disabled.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_disabled.xml \
 
@@ -25,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13ve/proprietary/lib/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_framecapture_utils.so \
     vendor/samsung/a13ve/proprietary/lib/libstagefright_httplive_sec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_httplive_sec.so \
     vendor/samsung/a13ve/proprietary/lib/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_surface_utils.so \
-    vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_hce.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hce.xml \
     vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_hceese.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hceese.xml \
     vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_hcesim.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hcesim.xml \
     vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_hcesimese.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hcesimese.xml \
