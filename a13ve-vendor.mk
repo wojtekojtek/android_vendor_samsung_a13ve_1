@@ -9,7 +9,8 @@ ODM_MANIFEST_FILES += \
     vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_disabled.xml \
     vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_hce.xml \
     vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_hceese.xml \
-    vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_hcesim.xml
+    vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_hcesim.xml \
+    vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_hcesimese.xml
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/a13ve/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
@@ -27,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13ve/proprietary/lib/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_framecapture_utils.so \
     vendor/samsung/a13ve/proprietary/lib/libstagefright_httplive_sec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_httplive_sec.so \
     vendor/samsung/a13ve/proprietary/lib/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_surface_utils.so \
-    vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_hcesimese.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hcesimese.xml \
     vendor/samsung/a13ve/proprietary/system_ext/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_audio_policy_configuration.xml \
     vendor/samsung/a13ve/proprietary/system_ext/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_in_audio_policy_configuration.xml \
     vendor/samsung/a13ve/proprietary/system_ext/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration.xml \
