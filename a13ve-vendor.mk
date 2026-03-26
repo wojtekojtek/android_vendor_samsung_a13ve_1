@@ -9,7 +9,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13ve/proprietary/system/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
     vendor/samsung/a13ve/proprietary/system/etc/init/init.sec-charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.sec-charger.rc \
     vendor/samsung/a13ve/proprietary/system/lib/libmaet.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmaet.so \
-    vendor/samsung/a13ve/proprietary/system_ext/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/system_ext/lib/libshowlogo.so \
+    vendor/samsung/a13ve/proprietary/system_ext/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libshowlogo.so \
     vendor/samsung/a13ve/proprietary/system/lib/libsxqk_skia.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsxqk_skia.so \
     vendor/samsung/a13ve/proprietary/system/media/battery_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_error.spi \
     vendor/samsung/a13ve/proprietary/system/media/battery_lightning.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_lightning.spi \
