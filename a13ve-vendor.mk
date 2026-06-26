@@ -1463,9 +1463,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13ve/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.9.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.9.so
 
 PRODUCT_COPY_FILES += \
-    $(TARGET_OUT)/lib/libcodec2_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vndk.so \
-    $(TARGET_OUT)/lib64/libcodec2_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vndk.so \
-    $(TARGET_OUT)/lib64/libpower.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower.so
+    out/target/product/a13ve/system/lib/libcodec2_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vndk.so \
+    out/target/product/a13ve/system/lib64/libcodec2_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vndk.so \
+    out/target/product/a13ve/system/lib64/libpower.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower.so
 
 PRODUCT_PACKAGES += \
     imsservice \
