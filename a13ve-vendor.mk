@@ -510,7 +510,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13ve/proprietary/vendor/etc/somxreg.conf:$(TARGET_COPY_OUT_VENDOR)/etc/somxreg.conf \
     vendor/samsung/a13ve/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
     vendor/samsung/a13ve/proprietary/vendor/etc/str/str_preference_data.dat:$(TARGET_COPY_OUT_VENDOR)/etc/str/str_preference_data.dat \
-    vendor/samsung/a13ve/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.xml \
     vendor/samsung/a13ve/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
     vendor/samsung/a13ve/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/samsung/a13ve/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
@@ -1509,7 +1508,8 @@ PRODUCT_PACKAGES += \
     lights-default-sec.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     vendor.samsung.hardware.snap-default.xml \
-    vendor.samsung.hardware.thermal@1.0-manifest.xml
+    vendor.samsung.hardware.thermal@1.0-manifest.xml \
+    vendor.samsung.hardware.biometrics.fingerprint@3.0-service.xml
 
 PRODUCT_PACKAGES += \
     libGLES_mali_vulkan.mt6768_symlink32 \
