@@ -19,6 +19,7 @@ service mnld /vendor/bin/mnld
     class main
     user gps
     capabilities WAKE_ALARM
+    disabled
     group gps inet misc sdcard_rw sdcard_r media_rw system radio wakelock
     socket mnld stream 660 gps system
 
@@ -28,6 +29,7 @@ service agpsd /vendor/bin/mtk_agpsd
     socket agpsd2 stream 660 gps inet
     socket agpsd3 stream 660 gps inet
     user gps
+    disabled
     group gps radio inet sdcard_r sdcard_rw misc system
 
 on property:dev.gnss.silentlogging=ON
